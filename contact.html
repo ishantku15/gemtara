@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — Gemtara | Get in Touch</title>
+  <meta name="description" content="Have questions about gemstones, crystals, or minerals? Want to suggest a topic or report an error? Contact the Gemtara team — we'd love to hear from you.">
+  <meta property="og:title" content="Contact Us — Gemtara">
+  <meta property="og:description" content="Get in touch with the Gemtara team. We'd love to hear your gemstone questions and feedback.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gemtara.in/contact.html">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gemtara.in/contact.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-icon"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M11 3l1 6h6"/><path d="M2 9h20"/><path d="M13 3l-1 6H6"/></svg></span> Gemtara
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="categories.html" class="nav__link">Categories</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="contact.html" class="nav__link nav__link--active">Contact</a>
+        <div class="nav__search search-trigger">
+          <span class="nav__search-icon"><svg class="icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></span>
+          <input type="text" placeholder="Search gems..." readonly>
+        </div>
+      </div>
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="index.html">Home</a>
+    <span class="breadcrumb__separator">›</span>
+    <span>Contact</span>
+  </div>
+
+  <!-- Page Content -->
+  <main class="page">
+    <h1 class="page__title">Contact Us</h1>
+
+    <p>We'd love to hear from you! Whether you have a question about a specific gemstone, want to suggest a topic for a future article, or noticed something that needs correcting — your feedback makes Gemtara better for everyone.</p>
+
+    <h2>Send Us a Message</h2>
+
+    <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST" id="contact-form">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="your@email.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>Choose a topic...</option>
+          <option value="question">Gemstone Question</option>
+          <option value="suggestion">Article Suggestion</option>
+          <option value="correction">Error Report / Correction</option>
+          <option value="collaboration">Collaboration Inquiry</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Tell us what's on your mind..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn" id="contact-submit">Send Message →</button>
+    </form>
+
+    <h2 style="margin-top: 3rem;">Other Ways to Reach Us</h2>
+
+    <p>You can also reach us directly at: <strong>hello@gemtara.in</strong></p>
+
+    <p>We typically respond to all inquiries within 48 hours. For urgent matters, email is the fastest way to reach us.</p>
+
+    <h3>Before You Write</h3>
+
+    <p>If you're looking for information about a specific gemstone, we may already have an article covering it. Try using the search function on our homepage or browsing our <a href="categories.html">categories page</a> — you might find exactly what you need.</p>
+  </main>
+
+  <!-- Search Modal -->
+  <div class="search-modal">
+    <div class="search-modal__inner">
+      <input type="text" class="search-modal__input" placeholder="Search gemstones, crystals, guides...">
+      <div class="search-modal__results"></div>
+    </div>
+  </div>
+
+  <button class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div>
+        <div class="footer__brand"><svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M11 3l1 6h6"/><path d="M2 9h20"/><path d="M13 3l-1 6H6"/></svg> Gemtara</div>
+        <p class="footer__desc">Your trusted guide to the fascinating world of gemstones, crystals, and minerals. Explore the beauty beneath the Earth's surface.</p>
+      </div>
+      <div>
+        <h4 class="footer__heading">Explore</h4>
+        <div class="footer__links">
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="categories.html" class="footer__link">Categories</a>
+          <a href="about.html" class="footer__link">About Us</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Categories</h4>
+        <div class="footer__links">
+          <a href="categories.html" class="footer__link">Precious Gems</a>
+          <a href="categories.html" class="footer__link">Semi-Precious</a>
+          <a href="categories.html" class="footer__link">Birthstones</a>
+          <a href="categories.html" class="footer__link">Crystal Healing</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer__heading">Legal</h4>
+        <div class="footer__links">
+          <a href="privacy-policy.html" class="footer__link">Privacy Policy</a>
+          <a href="terms.html" class="footer__link">Terms of Service</a>
+          <a href="disclaimer.html" class="footer__link">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Gemtara. All rights reserved.</span>
+      <span>Made with <svg class="icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:middle"><path d="M6 3h12l4 6-10 13L2 9z"/><path d="M11 3l1 6h6"/><path d="M2 9h20"/><path d="M13 3l-1 6H6"/></svg> for gem enthusiasts</span>
+    </div>
+  </footer>
+
+  <script src="js/posts-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
